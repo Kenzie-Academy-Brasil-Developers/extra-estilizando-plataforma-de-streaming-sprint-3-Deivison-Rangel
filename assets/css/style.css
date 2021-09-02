@@ -77,11 +77,15 @@ body{
     background-image:url(../img/movies/ted.webp);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: top;
+   
 }
 /* BODY */
   
 /* HEADER */
-header{}
+header{
+    
+}
 
 .flex{
     margin-top: 20px;
@@ -93,8 +97,10 @@ figcaption{
     display: none;
 }
 .abrir-submenu{
-    margin-left: 30px;
+    margin-left: 14px;
     color: #fff;
+    font-size: 12px;
+
 }
 .pesquisar{
     display: none;
@@ -124,6 +130,7 @@ Background: #ffffff;
 color:#000000;
 border-radius: 4px;
 border: none;
+margin-bottom: 3px;
 }
 .mais-informacoess{
 font-size: 12px;
@@ -138,13 +145,125 @@ border: none;
     
 }
 h2.secao-catalogo-titulo {
-    margin-top: 20px;
+    margin-top: 12px;
+    margin-bottom: -14px;
+    color: #fff;
+    font-size: 17px;
 }
+
+/* filmes */
+
+.listaa1{}
+.listaa1 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa2{}
+.listaa2 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa3{}
+.listaa3 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa4 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa5 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa6 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa7 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;}
+.listaa8 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa9 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;}
+.listaa10 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;}
+.listaa11 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+.listaa12 figure img{
+    width: 126px;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+
 /* INICIAL */
 
 
 /* FOOTER */
-footer{}
+footer{
+    display: inline-block;
+}
+.redes-sociais img{
+    width: 20px;
+    margin: 12px;
+}
+.redes-sociais{
+    display: inline-flex;
+}
+.inffo1{ 
+    float: left;
+    margin-right: 60px;
+    margin-left: 9px;
+    font-size: 12px;
+}
+.inffo1 li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+.inffo2{ 
+    float: left;
+    margin: 2px;
+    font-size: 12px;
+}
+.inffo2 li a{
+    text-decoration: none;
+    color: gray;
+}
+.copyright{
+    color: gray;
+    font-size: 11px;
+}
 /* FOOTER */
 
 
