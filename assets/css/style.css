@@ -59,28 +59,94 @@ div.container{
     width: 100%;
     max-width: 1140px;
     margin:0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 /* GERAL */
   
 /* HTML */
-html{}
+html{
+    
+}  
 /* HTML */
   
 /* BODY */
-body{}
+body{
+    background-color: #141414;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-image:url(../img/movies/ted.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* BODY */
   
 /* HEADER */
 header{}
+
+.flex{
+    margin-top: 20px;
+}
+figcaption{
+    display: none;
+}
+.itens_menu li{
+    display: none;
+}
+.abrir-submenu{
+    margin-left: 30px;
+    color: #fff;
+}
+.pesquisar{
+    display: none;
+}
+.logonet{
+    width: 70px;
+}
+.fotousu{
+    width: 28px;
+    margin-left: 68px;
+}
+
 /* HEADER */
   
+/* INICIAL */
+main{}
+
+.imgprinc{
+    width: 130px;;
+}
+.imgtitulo{
+    font-size: 12px;
+}
+.assistirr{
+font-size: 12px;
+Background: #ffffff;
+color:#000000;
+border-radius: 4px;
+border: none;
+}
+.mais-informacoess{
+font-size: 12px;
+Background: rgba(109,109,110,0.7);
+color: #ffffff;
+border-radius: 4px;
+border: none;
+}
+.play{
+    width: 10px;
+    position: relative;
+    
+}
+h2.secao-catalogo-titulo {
+    margin-top: 20px;
+}
+/* INICIAL */
+
+
 /* FOOTER */
 footer{}
 /* FOOTER */
 
-/* INICIAL */
-main{}
-/* INICIAL */
 
 /* EXTRAS */
 
