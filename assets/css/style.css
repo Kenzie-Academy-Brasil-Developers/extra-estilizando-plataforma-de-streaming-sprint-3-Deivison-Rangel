@@ -122,7 +122,8 @@ main{}
     width: 130px;;
 }
 .imgtitulo{
-    font-size: 12px;
+    font-size: 10px;
+    padding-right: 100px;
 }
 .assistirr{
 font-size: 12px;
@@ -264,6 +265,7 @@ footer{
     color: gray;
     font-size: 11px;
 }
+
 /* FOOTER */
 
 
@@ -282,7 +284,457 @@ footer{
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
+    @media screen and (min-width: 321px) {
+        i.fas.fa-search {
+                color: white;
+                margin-left: 480px;
+        }
+        .itens_menu li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        body{
+                background-color: #141414;
+                font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+                background-image:url(../img/movies/ted.webp);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: top;
+            
+        }
+        div.container{
+            width: 100%;
+            max-width: 1140px;
+            padding-left: 60px;
+            padding-right: 60px;
+            
+        }
+        .logonet{
+                max-width: 92px;
+        }
+        .fotousu{
+                width: 32px;
+                margin-left: 68px;
+                margin-top: -20px;
+                margin-left: 514px;
+        }
+        .flex{
+                margin-top: 20px;
+        }
+        figcaption{
+                display: none;
+        }
+        .itens_menu li{
+                display: inline-block;
+                margin-left: 20px;
+        }
+        .abrir-submenu{
+            display: none;
+            margin-top: 20px;
+            padding-top: 8px;
+        }
+        .pesquisar{
+                display: flex;
+        }
+        .imgprinc{
+                width: 650px;
+                margin-top: 115px;
+        }
+        .imgtitulo{
+                font-size: 30px;
+                columns: unset;
+                padding-right: 490px;
+                margin-top: 30px;
+                margin-bottom: 40px;
+        }
+        .assistirr{
+            font-size: 18px;
+            Background: #ffffff;
+            color: #000000;
+            border-radius: 5px;
+            border: 11px;
+            margin-bottom: 5px;
+            padding: 11px;
+        }
+        .assistirr:hover{
+            border: 1px solid black;
+        }
+        
+        .mais-informacoess{
+            font-size: 18px;
+            Background: rgba(109,109,110,0.7);
+            color: #ffffff;
+            border-radius: 5px;
+            border: 11px;
+            padding: 11px;
+            margin-bottom: 5px;
+        }
+        .mais-informacoess:hover{border: 1px solid black;}
+        .play{
+                width: 10px;
+                position: relative;
+                
+        }
+        h2.secao-catalogo-titulo {
+            margin-top: 65px;
+            margin-bottom: -20px;
+            color: #e5e5e5;
+            font-size: 26px;
+        }
+        
+        .listaa1 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+        }
+        
+        .listaa2 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+        }
+        
+        .listaa3 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+        }
+    .listaa4 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    .listaa5 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    .listaa6 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    .listaa7 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    .listaa8 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    .listaa9 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;}
+    .listaa10 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;}
+    .listaa11 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    .listaa12 figure img{
+        width: 166px;
+        float: left;
+        margin: 2px;
+        border-radius: 5px;
+    }
+    footer{
+    display: inline-block;
+    margin-left: 360px;
+    }
+    .redes-sociais img{
+    width: 20px;
+    margin: 12px;
+    }
+    .redes-sociais{
+    display: flex;
+        
+    }
+    .inffo1{ 
+    margin-right: 60px;
+    margin-left: 9px;
+    font-size: 13px;
+    display: contents;
+    }
+    .inffo1 li a{
+    text-decoration: none;
+    color: gray;
+        
+    }
+    .inffo2{ 
+    margin-right: 60px;
+    margin-left: 9px;
+    font-size: 13px;
+    display: contents;
+    }
+    .inffo2 li a{
+        text-decoration: none;
+        color: gray;
+    }
+    .copyright{
+        color: gray;
+        font-size: 11px;
+        margin-left: 200px;
+    } 
+    
+    .flex {
+        display: flow-root;
+    }
+   
+    .redes-sociais li{
+        margin-top: -69px;
+        margin-left: 384px;
+        margin-right: -403px;
+    }
+    footer{
+        border-top: 1px solid gray;
+        margin-top: 14px;
+        padding: 74px;
+        padding-top: 1px;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    i.fas.fa-search {
+        color: white;
+        margin-left: 480px;
+}
+.itens_menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+        background-color: #141414;
+        font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+        background-image:url(../img/movies/ted.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    
+}
+div.container{
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+.logonet{
+        max-width: 92px;
+}
+.fotousu{
+        width: 32px;
+        margin-left: 68px;
+        margin-top: -20px;
+        margin-left: 514px;
+}
+.flex{
+        margin-top: 20px;
+}
+figcaption{
+        display: none;
+}
+.itens_menu li{
+        display: inline-block;
+        margin-left: 20px;
+}
+.abrir-submenu{
+    display: none;
+    margin-top: 20px;
+    padding-top: 8px;
+}
+.pesquisar{
+        display: flex;
+}
+.imgprinc{
+        width: 650px;
+        margin-top: 115px;
+}
+.imgtitulo{
+        font-size: 30px;
+        columns: unset;
+        padding-right: 490px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+}
+.assistirr{
+    font-size: 18px;
+    Background: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    border: 11px;
+    margin-bottom: 5px;
+    padding: 11px;
+}
+.assistirr:hover{
+    border: 1px solid black;
+}
+
+.mais-informacoess{
+    font-size: 18px;
+    Background: rgba(109,109,110,0.7);
+    color: #ffffff;
+    border-radius: 5px;
+    border: 11px;
+    padding: 11px;
+    margin-bottom: 5px;
+}
+.mais-informacoess:hover{border: 1px solid black;}
+.play{
+        width: 10px;
+        position: relative;
+        
+}
+h2.secao-catalogo-titulo {
+    margin-top: 65px;
+    margin-bottom: -20px;
+    color: #e5e5e5;
+    font-size: 26px;
+}
+
+.listaa1 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+
+.listaa2 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+
+.listaa3 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa4 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa5 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa6 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa7 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa8 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa9 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;}
+.listaa10 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;}
+.listaa11 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+.listaa12 figure img{
+width: 166px;
+float: left;
+margin: 2px;
+border-radius: 5px;
+}
+footer{
+display: inline-block;
+margin-left: 360px;
+}
+.redes-sociais img{
+width: 20px;
+margin: 12px;
+}
+.redes-sociais{
+display: flex;
+
+}
+.inffo1{ 
+margin-right: 60px;
+margin-left: 9px;
+font-size: 13px;
+display: contents;
+}
+.inffo1 li a{
+text-decoration: none;
+color: gray;
+
+}
+.inffo2{ 
+margin-right: 60px;
+margin-left: 9px;
+font-size: 13px;
+display: contents;
+}
+.inffo2 li a{
+text-decoration: none;
+color: gray;
+}
+.copyright{
+color: gray;
+font-size: 11px;
+margin-left: 200px;
+} 
+
+.flex {
+display: flow-root;
+}
+
+.redes-sociais li{
+margin-top: -69px;
+margin-left: 384px;
+margin-right: -403px;
+}
+footer{
+border-top: 1px solid gray;
+margin-top: 14px;
+padding: 74px;
+padding-top: 1px;
+}
+}
+      
 /* MEDIA QUERIES */
